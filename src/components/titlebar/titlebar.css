@@ -1,0 +1,31 @@
+@import url('/src/assets/styles/styles.css');
+
+.titlebarcomponent__container {
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--secondary-color);
+}
+
+.titlebarcomponent__icon_alt {
+    height: 36px;
+    width: 36px;
+}
+
+.titlebarcomponent__svgfellas {
+    transition: transform .3s;
+}
+
+.titlebarcomponent__svgfellas:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+svg{
+    font-family: JockeyOne, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: JockeyOne;
+    src: url('/src/assets/fonts/JockeyOne-Regular.ttf');
+}

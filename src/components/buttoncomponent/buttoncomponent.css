@@ -1,0 +1,41 @@
+.buttoncomponent__container {
+    width: fit-content;
+    background: var(--secondary-color);
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: var(--primary-border-radius);
+    cursor: pointer;
+    color: #000;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.buttoncomponent__container:hover {
+    background: var(--ternary-color);
+}
+
+.buttoncomponent__buttons {
+    width: fit-content;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--primary-color);
+    cursor: pointer;
+    border-radius: var(--primary-border-radius);
+}
+/* 
+background: var(--primary-color);
+    border-top-left-radius: var(--primary-border-radius);
+    border-bottom-left-radius: var(--primary-border-radius);
+    cursor: pointer;
+    color: var(--secondary-color) */

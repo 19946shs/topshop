@@ -1,0 +1,8 @@
+.PIL {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.PIL.hide {
+  opacity: 0;
+  pointer-events:none;
+}

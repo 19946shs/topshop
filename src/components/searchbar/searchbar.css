@@ -1,0 +1,103 @@
+@import url('/src/assets/styles/styles.css');
+
+.searchcomponent__input_container {
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition: transform ease .2s;
+}
+.searchcomponent__input_container:hover {
+    transform: scale(1.01);
+}
+
+#searchcomponent__input {
+    height: 24px;
+    width: 500px;
+    border-radius: var(--primary-border-radius);
+    outline: none;
+}
+#searchcomponent__input:focus{
+    outline: none;
+}
+.searchcomponent__input_container input {
+    width: 500px;
+    height: 24px;
+    padding: 5px;
+}
+
+.searchcomponent__whole_container {
+    width: 500px;
+    margin: auto;
+    display: block;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 1120px)  {
+    .searchcomponent__input_container {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 980px)  {
+    .searchcomponent__whole_container {
+        width: 350px;
+    }
+    
+    .searchcomponent__input_container {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 720px)  {
+    .searchcomponent__input_container {
+        width: 350px;
+    }
+    
+    #searchcomponent__input {
+        width: 350px;
+    }
+    .searchcomponent__input_container input {
+        width: 350px;
+    }
+    
+    .searchcomponent__whole_container {
+        width: 350px;
+    }
+    
+    .titleicon {
+        visibility: hidden;
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 480px)  {
+    .searchcomponent__input_container {
+        width: 250px;
+    }
+    
+    #searchcomponent__input {
+        width: 250px;
+    }
+    .searchcomponent__input_container input {
+        width: 250px;
+    }
+    
+    .searchcomponent__whole_container {
+        width: 250px;
+    }
+}
+
+
+#searchcomponent__list_inner_item {
+    text-align: left;
+    padding: 10px;
+} 
+#searchcomponent__list_inner_item:hover {
+    cursor: pointer;
+    font-weight: 700;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: var(--primary-border-radius);
+}

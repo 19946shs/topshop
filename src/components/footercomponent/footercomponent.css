@@ -1,0 +1,9 @@
+.footercomponent__main_container {
+    width: 100%;
+    height: 400px;
+    background: var(--footer-color);
+    margin-top: 150px;
+    clear: both;
+    position: relative;
+    height: 300px;
+}

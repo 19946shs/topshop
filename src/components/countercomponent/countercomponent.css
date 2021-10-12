@@ -1,0 +1,51 @@
+.countercomponent__container {
+    width: 90px;
+    height: 40px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-direction: row;
+    background: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: var(--primary-border-radius);
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.countercomponent__buttons {
+    width: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.minus {
+    background: var(--primary-color);
+    border-top-left-radius: var(--primary-border-radius);
+    border-bottom-left-radius: var(--primary-border-radius);
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.plus {
+    background: var(--primary-color);
+    border-top-right-radius: var(--primary-border-radius);
+    border-bottom-right-radius: var(--primary-border-radius);
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.minus:hover {
+    background: var(--ternary-color);
+    color: #000;
+}
+
+.plus:hover {
+    background: var(--ternary-color);
+    color: #000;
+}
+

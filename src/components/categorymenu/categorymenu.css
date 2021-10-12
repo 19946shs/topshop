@@ -1,0 +1,26 @@
+.categorymenu__dropdown_container_id {
+    width: 300px;
+
+}
+#categorymenucomponent__list_inner_item {
+    text-align: left;
+    padding: 10px;
+} 
+#categorymenucomponent__list_inner_item:hover {
+    cursor: pointer;
+    font-weight: 700;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: var(--primary-border-radius);
+}
+
+#categorymenucomponent__title {
+    border-top-left-radius: var(--primary-border-radius);
+    border-top-right-radius: var(--primary-border-radius);
+    background-color: var(--primary-color);
+    height: 50px;
+    color: var(--secondary-color);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
